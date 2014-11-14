@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+/*article, nav, div, section, aside{
+	border: 1px dashed red;
+}*/
+* {
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+}
+html{
+	height: 100%;
+}
+body {
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#contents {
+	width: 80%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+nav {
+	height: 35px;
+	background: -webkit-linear-gradient(left top, #4E1518, #000);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #4E1518, #000);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #4E1518, #000);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #4E1518, #000);
+	/* Standard syntax (must be last) */
+}
+
+nav ul li:hover {
+	background-color: #4E1518;
+}
+
+nav ul li {
+	padding-top: 5px;
+	height: 30px;
+	list-style-type: none;
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+aside {
+	float: left;
+	clear: left;
+	width: 19%;
+	margin-right: 10px;
+}
+
+aside article,form {
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	color: #FFF;
+	/*background-color: #4E1518;*/
+	background: -webkit-linear-gradient(left top, #4E1518, #380A0C);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #4E1518, #380A0C);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #4E1518, #380A0C);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #4E1518, #380A0C);
+	/* Standard syntax (must be last) */
+	border: 1px solid #692428;
+}
+
+#login {
+	background-image: url(../images/B04-default.bmp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 95px;
+	height: 28px;
+	color: #FFF;
+	border: none;
+}
+
+aside article {
+	background-color: #151515;
+	float: left;
+	clear: left;
+	border: 1px solid #1d1d1d;
+}
+
+#content {
+	width: 59%;
+	float: left;
+	margin-right: 10px;
+}
+
+#username,#password {
+	color: black;
+	width: 60%;
+}
+
+#side {
+	background-color: #151515;
+	float: left;
+	width: 19%;
+}
+
+#side article {
+	border: 1px solid #1d1d1d;
+}
+
+#image {
+	background-image:
+		url(../images/999401_552684244794926_2013598817_n%20edit.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+}
+
+footer {
+	border: 1px solid #1d1d1d;
+	height: 30px;
+	background-color: #151515;
+	width: 100%;
+	text-align: center;
+	float: left;
+	clear: both;
+	/*bottom: 0;
+	position: absolute;*/
+	margin-top: 10px;
+}
+
+#Online {
+	color: green;
+}
+
+#Offline {
+	color: red;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
